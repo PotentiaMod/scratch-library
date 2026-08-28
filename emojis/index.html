@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<title>PenguinMod - Library</title>
+		<title>PotentiaMod - Library</title>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://potentiamod.github.io/css/footer.css" type="text/css">
+		<link rel="stylesheet" href="https://potentiamod.github.io/css/header.css" type="text/css">
+        <link rel="stylesheet" href="https://potentiamod.github.io/css/main.css" type="text/css">
 		<style>
-            @keyframes spinner {
-                0% { transform: rotate(0deg); }
-                50% { transform: rotate(180deg); }
-                100% { transform: rotate(360deg); }
-            }
-
 			* {
 				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 			}
-            code {
+			code {
                 font-family: monospace;
                 background: rgba(0, 0, 0, 0.1);
                 border-radius: 4px;
@@ -20,38 +21,6 @@
 			body {
 				min-width: 400px;
 			}
-
-			.nav-bar {
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 3rem;
-				background: #00c3ff;
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-			}
-
-			.nav-bar a:not(.home-redirect) {
-				margin: 0 8px;
-				height: 100%;
-			}
-			.nav-bar button {
-				height: 100%;
-				padding: 8px 12px;
-				background: transparent;
-				color: white;
-				font-weight: bold;
-				font-size: 0.75rem;
-				border: 0;
-				margin: 0;
-				cursor: pointer;
-			}
-			.nav-bar button:hover {
-				background: rgba(0, 0, 0, 0.125);
-			}
-			
 			.home-redirect {
 				height: 80%;
 				margin-left: 4px;
@@ -64,8 +33,7 @@
 				width: 100%;
 				height: 3rem;
 			}
-
-            .loading {
+			.loading {
                 animation: spinner 1s linear 0s infinite;
                 width: 4rem;
             }
@@ -104,34 +72,31 @@
             }
 		</style>
 	</head>
-	<body>
-		<div class="nav-bar">
-			<a class="home-redirect" href="https://penguinmod.com">
-				<img src="../navicon.png" alt="Icon">
-			</a>
-			<a href="../">
-				<button>
-					Home
-				</button>
-			</a>
-			<a href="../files">
-				<button>
-					Files
-				</button>
-			</a>
-			<a href="./">
-				<button>
-					Emojis
-				</button>
-			</a>
-			<a href="https://github.com/PenguinMod/PenguinMod-ObjectLibraries">
-				<button>
-					GitHub
-				</button>
-			</a>
-		</div>
+	<body
+	<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <div class="header">
+        <div class="main-group">
+            <a href="https://potentiamod.github.io/" class="header-item">
+                 <img src="https://potentiamod.github.io/img/logo.png" alt="PotentiaMod" class="home-logo" />
+                        <span class="home-wordmark"> PotentiaMod </span>
+            </a>
+            <a href="https://potentiamod.github.io/scratch-library/files" class="header-item">
+                Files
+            </a>
+            <a href="https://potentiamod.github.io/scratch-library/emojis" class="header-item">
+                Emojis
+            </a>
+			<a href="https://github.com/PotentiaMod/scratch-library/" class="header-item">
+                Source Code
+            </a>
+        </div>
+    </div>
 		<div class="nav-margin"></div>
-		<h1>PenguinMod Emojis</h1>
+		<h1>PotentiaMod Emojis</h1>
         <p>These are accessible by surrounding a <strong>lower-case emoji name</strong> with colon : symbols.</p>
         <p>Examples:</p>
         <p style="margin-left:8px;"><code>:excited: :meh: :idk:</code></p>
@@ -170,5 +135,41 @@
                 console.error(err);
             });
         </script>
+<footer class="container-fluid bg-4">
+<div class="inner">
+
+<div class="brand"> <img style="width: 70px;" src="https://potentiamod.github.io/img/logo.png"
+alt="PotentiaMod">
+<div> <span class="wordmark">PotentiaMod</span>
+<p class="tagline">It makes the very best!</p>
+</div>
+</div>
+
+<div class="columns">
+<div class="column">
+<span class="column-title">Website</span>
+<a href="https://potentiamod.github.io/online/editor.html">Editor</a>
+<a href="https://potentiamod.github.io/online/pot-desktop.html">PotentiaMod Desktop</a>
+<a href="https://potentiamod.github.io/online/packager">PotentiaMod
+Packager</a>
+<a href="https://potentiamod.github.io/online?livetest">Live Test</a>
+<a href="https://github.com/PotentiaMod" target="_blank" rel="noreferrer"
+class="icon-row"> GitHub Source Code</a>
+</div>
+<div class="column">
+<span class="column-title">Community</span>
+<a href="https://potentiamod.github.io/online/credits.html">Credits</a>
+<a href="https://potentiamod.github.io/online/privacy.html">Privacy Policy</a>
+<a href="https://com.bilup.org/users/GaiaKitty" target="_blank" rel="noreferrer">Report a bug</a>
+</div>
+<div class="column"> <span class="column-title">Donate</span>
+<a href="https://github.com/sponsors/GarboMuffin" target="_blank" rel="noreferrer">Donate to TurboWarp</a>
+<a href="https://www.scratchfoundation.org/donate" target="_blank" rel="noreferrer">Donate to Scratch</a> </div>
+</div>
+
+<div class="legal"> PotentiaMod is a mod of TurboWarp and
+Scratch. Not affiliated with Scratch or the Scratch Foundation. </div>
+</div>
+</footer>
 	</body>
 </html>

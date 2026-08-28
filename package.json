@@ -1,19 +1,19 @@
 {
-  "name": "penguinmod-objectlibraries",
+  "name": "scratch-library",
   "version": "1.0.0",
-  "description": "The repo containing all new Public Domain costumes, sounds and others in PenguinMod's libraries.",
+  "description": "The repo containing all new Public Domain costumes, sounds and others in the library. Forked from PenguinMod's Object Libraries.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PenguinMod/PenguinMod-ObjectLibraries"
+    "url": "https://github.com/PotentiaMod/scratch-library"
   },
   "keywords": [
-    "penguinmod"
+    "potentiamod"
   ],
-  "author": "PenguinMod",
+  "author": "PotentiaMod",
   "license": "MIT",
   "dependencies": {
     "glob": "^10.4.2"
